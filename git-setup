@@ -1,4 +1,4 @@
 Install GIT local 
 Create remote Github account 
-enable the pub key settings 
+enable the pub key settings "ssh-keygen"
 create the Personal access token
