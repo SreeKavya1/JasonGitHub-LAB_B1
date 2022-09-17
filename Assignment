@@ -1,0 +1,23 @@
+Install git on your Laptop or else on a EC2 instance in AWS
+Create Directory 
+Initialize the Directory
+Create multiple file in the Dir 
+
+=======================
+
+Git status 
+Git add.
+git status 
+git commit -m 
+git branch 
+create a new branch 
+verify the current branch 
+switch to other branch 
+switch to main branch 
+=======================
+
+
+Work on REMOTE REPO Assignment in the GITHUB BRANCH 
+
+push asssignment along with your name to git hub main branch
+
