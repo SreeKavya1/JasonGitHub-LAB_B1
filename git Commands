@@ -16,3 +16,4 @@ Before we jump into managing data science projects, let's learn about the most c
 • git merge <branch-name>: after resolving merge conflicts the command blends selected branch into the current branch.
 • git log show a detailed list of commits for the current branch.
 
+   
