@@ -1,0 +1,23 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('useradd aniketh') {
+            steps {
+                echo 'To add user'
+            }
+        }
+    
+        stage('passwd aniketh') {
+            steps {
+                echo 'To create password'
+            }
+        }
+        stage('cat /etc/passwd') {
+            steps {
+                echo 'To see the user is created'
+            }
+        }
+   }
+}
+
