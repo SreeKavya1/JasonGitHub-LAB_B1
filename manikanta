@@ -1,0 +1,17 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('useradd manikanta') {
+            steps {
+                echo 'to add user'
+            }
+        }
+    
+        stage('passwd manikanta') {
+            steps {
+                echo 'to set password to user'
+            }
+    
+        }    
+    }  
