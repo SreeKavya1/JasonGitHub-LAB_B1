@@ -1,0 +1,12 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('Arjun') {
+            steps {
+                echo 'Arjun First Declarative pipeline'
+            }
+        }
+    }
+}
+

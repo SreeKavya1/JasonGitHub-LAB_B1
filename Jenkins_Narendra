@@ -1,0 +1,62 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('git add') {
+            steps {
+                echo 'to add the file to staging area'
+            }
+        }
+        stage('git commit') {
+            steps {
+                echo 'to commit the file to staging area'
+            }
+        }
+        stage('git push') {
+            steps {
+                echo 'to push the file to remote area'
+            }
+        }
+        stage('git pull') {
+            steps {
+                echo 'to pull the file from remote area'
+            }
+        }
+        stage('git clone') {
+            steps {
+                echo 'to copy the file from remote area to local repo'
+            }
+        }
+         stage('sudo ls') {
+            steps {
+                echo 'to list the files in directory'
+            }
+        }
+         stage('sudo adduser <username>') {
+            steps {
+                echo 'to add the user'
+            }
+        }
+        stage('sudo deluser <username>') {
+            steps {
+                echo 'to delete the user'
+            }
+        }
+        stage('sudo mkdir <directoryname>') {
+            steps {
+                echo 'to create the directory'
+            }
+        }
+        stage('sudo touch <filename>') {
+            steps {
+                echo 'to create a file'
+            }
+        }
+        stage('sudo rm <filename>') {
+            steps {
+                echo 'to remove a file'
+            }
+        }
+    }
+}
+

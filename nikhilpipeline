@@ -1,0 +1,12 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('mkdir-nikhil12') {
+            steps {
+                echo 'to create a directory'
+            }
+        }
+    }
+}
+
