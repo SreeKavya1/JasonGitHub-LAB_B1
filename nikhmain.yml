@@ -1,0 +1,19 @@
+---
+- name: Update web servers
+  hosts: localhost
+  remote_user: root
+
+  tasks:
+  - name: Ensure Install jenkins latest version
+    ansible.builtin.yum:
+      name: httpd
+      state: latest
+- name: Update web servers
+  hosts: localhost
+  remote_user: root
+
+  tasks:
+  - name: Ensure Install docker latest version
+    ansible.builtin.yum:
+      name: httpd
+      state: latest
