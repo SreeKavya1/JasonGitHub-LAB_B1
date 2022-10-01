@@ -1,0 +1,17 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('Jenkins Demo') {
+            steps {
+                echo 'Jenkins Demo'
+            }
+     
+        stage('Pipeline Demo') {
+            steps {
+                echo 'Pipeline Demo'
+            }
+        }   }
+    }
+}
+
