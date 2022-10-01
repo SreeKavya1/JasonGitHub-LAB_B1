@@ -1,0 +1,35 @@
+---
+- name:	Install apache httpd
+(state=present is optional)
+  ansible.builtin.apt:
+    name: apache2
+    state: present
+
+- name: Update repositories cache and install "foo" package
+  ansible.builtin.apt:
+    name: foo
+    update_cache: yes
+
+- name:	Remove "foo" package
+  ansible.builtin.apt:
+    name: foo
+    state: absent
+
+- name: Install the package "foo"
+  ansible.builtin.apt:
+    name: foo
+
+- name: Install a list of packages
+  ansible.builtin.apt:
+    pkg:
+    - foo
+    -foo-tools
+
+- name: Install the version '1 .00' of package "foo"
+  ansible.builtin.apt:
+    name: foo=1 .00
+
+- name: Update the repository cache and update package "nginx" to latest version using default release squeeze-backport
+  ansible.builtin.apt:
+
+
