@@ -1,0 +1,15 @@
+---
+- hosts: local host
+    tasks:
+       - name: Install dependecy packages with apt
+         apt:
+            name:
+            - gcc
+            - gcc-c++
+            - python39-devel
+            - git
+            - python39-pip
+            - mariadb-devel
+            - cloud-utils-growpart
+            - postgresql-devel
+            state: present
